@@ -1,0 +1,27 @@
+#ignore non-text file type
+*.cnt
+*.mat
+*.fig
+*.wav
+
+*.jpg
+*.bmp
+*.png
+*.pdf
+*.doc
+
+#ignore Loreta file
+/Data/*/Loreta/*
+
+#ignore "tmp" or "AutoSave" files
+*.swp
+*.asv
+
+#excepetional file
+!/Experiment/**/Program/*.mat
+!/Experiment/**/Record/*.mat
+!/Function/**/*.mat
+!/Data/*/Artifact/*.mat
+!/Data/*/FreqDomain/*.mat
+!/AvPref/*.mat
+!/Reference/**/*.pdf
